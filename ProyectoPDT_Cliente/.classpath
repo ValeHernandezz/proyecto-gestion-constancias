@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ProyectoPDT_EJB"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/wildfly-26.1.0.Final/modules/system/layers/base/org/hibernate/main/hibernate-core-5.3.24.Final.jar"/>
+	<classpathentry kind="lib" path="C:/wildfly-26.1.0.Final/bin/client/jboss-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VALENTINA/Documents/UTEC/Librerías Eclipse/jcalendar-1.4/lib/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VALENTINA/Documents/UTEC/Librerías Eclipse/itext.jar"/>
+	<classpathentry kind="lib" path="C:/Users/VALENTINA/Documents/UTEC/Librerías Eclipse/javax.mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

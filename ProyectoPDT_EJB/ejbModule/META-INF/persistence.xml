@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="ProyectoPDT_EJB">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jta-data-source>java:/ProyectoDS</jta-data-source>
+		<class>com.entities.Analista</class>
+		<class>com.entities.Area</class>
+		<class>com.entities.Constancia</class>
+		<class>com.entities.Departamento</class>
+		<class>com.entities.Estado</class>
+		<class>com.entities.EstadoConstancia</class>
+		<class>com.entities.EstadoConstanciaPK</class>
+		<class>com.entities.Estudiante</class>
+		<class>com.entities.Evento</class>
+		<class>com.entities.EventoEstudiante</class>
+		<class>com.entities.EventoEstudiantePK</class>
+		<class>com.entities.EventoTutor</class>
+		<class>com.entities.EventoTutorPK</class>
+		<class>com.entities.Genero</class>
+		<class>com.entities.Itr</class>
+		<class>com.entities.Localidad</class>
+		<class>com.entities.Rol</class>
+		<class>com.entities.Tipo</class>
+		<class>com.entities.Tutor</class>
+		<class>com.entities.Usuario</class>
+		<class>com.entities.EstadoReclamo</class>
+		<class>com.entities.EstadoReclamoPK</class>
+		<class>com.entities.Reclamo</class>
+		<validation-mode>AUTO</validation-mode>
+		<properties>
+			<property name="hibernate.dialect"
+				value="org.hibernate.dialect.Oracle10gDialect" />
+			<property name="hibernate.hbm2ddl.auto" value="create-drop" />
+			<property name="hibernate.show_sql" value="true" />
+			<property
+				name="javax.persistence.schema-generation.create-database-schemas"
+				value="true" />
+		</properties>
+	</persistence-unit>
+</persistence>
